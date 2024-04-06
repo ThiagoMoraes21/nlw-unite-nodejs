@@ -76,3 +76,11 @@ CREATE UNIQUE INDEX "attendees_event_id_email_key" ON "attendees"("event_id", "e
 -- CreateIndex
 CREATE UNI
 ```
+
+### Como executar esta aplicação localmente
+
+No terminal, rode o seguinte comando:
+
+```bash
+npm run dev
+```
