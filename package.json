@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch --env-file .env src/server.ts",
     "prisma-studio": "prisma studio",
-    "create-migration": "prisma migrate dev"
+    "create-migration": "prisma migrate dev",
+    "prisma-format": "prisma format"
   },
   "keywords": [],
   "author": "",

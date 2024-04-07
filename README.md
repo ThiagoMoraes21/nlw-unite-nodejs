@@ -13,17 +13,17 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 ### Requisitos Funcionais
 
 - [x] O organizador deve porder cadastrar um novo evento;
-- [ ] O organizador deve porder visualizar dados de um evento;
+- [x] O organizador deve porder visualizar dados de um evento;
 - [ ] O organizador deve porder visualizar a lista de participantes;
 - [x] O participante deve porder se inscrever em um evento;
 - [ ] O participante deve porder visualizar seu chachá de inscrição;
-- [ ] O participante deve porder realizar check-in no evento;
+- [x] O participante deve porder realizar check-in no evento;
 
 ### Regras de negócio
 
-- [ ] O participante só pode se inscrever em um evento uma única vez;
+- [x] O participante só pode se inscrever em um evento uma única vez;
 - [x] O participante só pode se inscrever em eventos com vagas disponíveis;
-- [ ] O participante só pode realizar check-in em um evento uma única vez;
+- [x] O participante só pode realizar check-in em um evento uma única vez;
 
 ### Requisitos não funcionais
 
@@ -104,4 +104,3 @@ npm run dev
 - 30x --> Redirecionamento
 - 40x --> Erro do cliente (Erro em alguma informação enviada por **QUEM** fez a requisição)
 - 50x --> Erro do servidor (Erro que está acontecendo **INDEPENDENTE** do que está sendo enviado para o servidor)
-
