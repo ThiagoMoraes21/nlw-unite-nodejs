@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch --env-file .env src/server.ts"
+    "dev": "tsx watch --env-file .env src/server.ts",
+    "prisma-studio": "prisma studio"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "@prisma/client": "^5.12.1",
     "@types/node": "^20.12.4",
     "fastify": "^4.26.2",
+    "fastify-type-provider-zod": "^1.1.9",
     "typescript": "^5.4.4",
     "zod": "^3.22.4"
   },
