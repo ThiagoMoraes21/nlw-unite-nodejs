@@ -15,14 +15,14 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 - [x] O organizador deve porder cadastrar um novo evento;
 - [ ] O organizador deve porder visualizar dados de um evento;
 - [ ] O organizador deve porder visualizar a lista de participantes;
-- [ ] O participante deve porder se inscrever em um evento;
+- [x] O participante deve porder se inscrever em um evento;
 - [ ] O participante deve porder visualizar seu chachá de inscrição;
 - [ ] O participante deve porder realizar check-in no evento;
 
 ### Regras de negócio
 
 - [ ] O participante só pode se inscrever em um evento uma única vez;
-- [ ] O participante só pode se inscrever em eventos com vagas disponíveis;
+- [x] O participante só pode se inscrever em eventos com vagas disponíveis;
 - [ ] O participante só pode realizar check-in em um evento uma única vez;
 
 ### Requisitos não funcionais
@@ -90,16 +90,18 @@ npm run dev
 - Corpo da requisição (Request Body)
 - Parâmetros de busca (Search Params / Query Params) `http://localhost:3333/users?name=Thiago`
 - Parâmetros de rota (Route Params) --> **Identificação de Recursos** `DELETE http://localhost:3333/users/5`
-- Cabeçalhos (Headers) -->  **Contexto**
+- Cabeçalhos (Headers) --> **Contexto**
 
 **Integrações com Banco de Dados**
+
 - Drivers Nativos (mais avançado, requer conhecimento profundo sobre banco de dados)
 - Query Builders
 - ORMs
 
-
 **Códigos HTTPs**
+
 - 20x --> Sucesso
 - 30x --> Redirecionamento
 - 40x --> Erro do cliente (Erro em alguma informação enviada por **QUEM** fez a requisição)
 - 50x --> Erro do servidor (Erro que está acontecendo **INDEPENDENTE** do que está sendo enviado para o servidor)
+
