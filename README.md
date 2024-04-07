@@ -1,5 +1,15 @@
 # pass.in
 
+<!--toc:start-->
+
+- [pass.in](#passin)
+  - [Requisitos](#requisitos)
+    - [Requisitos Funcionais](#requisitos-funcionais)
+    - [Regras de negócio](#regras-de-negócio)
+    - [Requisitos não funcionais](#requisitos-não-funcionais)
+  - [Banco de dados](#banco-de-dados) - [Diagrama ERD](#diagrama-erd) - [Estrutura do banco (SQL)](#estrutura-do-banco-sql) - [Como executar esta aplicação localmente](#como-executar-esta-aplicação-localmente) - [Anotações](#anotações)
+  <!--toc:end-->
+
 O pass.in é uma aplicação de gestão de participantes em eventos presenciais.
 
 A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
@@ -14,7 +24,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 - [x] O organizador deve porder cadastrar um novo evento;
 - [x] O organizador deve porder visualizar dados de um evento;
-- [ ] O organizador deve porder visualizar a lista de participantes;
+- [x] O organizador deve porder visualizar a lista de participantes;
 - [x] O participante deve porder se inscrever em um evento;
 - [ ] O participante deve porder visualizar seu chachá de inscrição;
 - [x] O participante deve porder realizar check-in no evento;
