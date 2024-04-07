@@ -7,3 +7,14 @@ Content-Type: application/json
     "details": "Um evento para quem é apaixonado por programação",
     "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/5debbd1e-1231-4851-88ae-d195ea5c05fd/attendees
+Content-Type: application/json
+
+
+{
+    "name": "joãzinho da silva",
+    "email": "joao_zecada@gmail.com"
+}

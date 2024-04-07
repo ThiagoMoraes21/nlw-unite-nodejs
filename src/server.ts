@@ -1,6 +1,7 @@
 import fastify from "fastify";
 import { serializerCompiler, validatorCompiler, ZodTypeProvider } from "fastify-type-provider-zod";
 import { createEvent } from "./routes/create-events";
+import { registerForEvent } from "./routes/register-for-event";
 
 const app = fastify();
 
@@ -13,6 +14,7 @@ app.get("/health-check", () => {
 });
 
 app.register(createEvent);
+app.register(registerForEvent);
 
 app.listen({ port: 3333 }).then(() => {
   console.log("http server is running...");
