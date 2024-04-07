@@ -7,6 +7,7 @@ import {
 import { createEvent } from "./routes/create-events";
 import { registerForEvent } from "./routes/register-for-event";
 import { getEvent } from "./routes/get-event";
+import { checkIn } from "./routes/check-in";
 
 const app = fastify();
 
@@ -21,6 +22,7 @@ app.get("/health-check", () => {
 app.register(createEvent);
 app.register(registerForEvent);
 app.register(getEvent);
+app.register(checkIn);
 
 app.listen({ port: 3333 }).then(() => {
   console.log("http server is running...");
